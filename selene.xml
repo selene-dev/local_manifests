@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+           
+  <remote  name="selene-dev"
+           fetch="https://github.com/selene-dev"
+           revision="twelve"/>
+           
+
+ <!-- Kernel -->
+  <project path="kernel/xiaomi/selene" name="android_kernel_xiaomi_selene" remote="selene-dev"/>
+
+ <!-- Vendor Trees -->
+  <project path="vendor/xiaomi/selene" name="android_vendor_xiaomi_selene" remote="selene-dev"/>
+  <project path="vendor/mediatek-ims" name="vendor_mediatek-ims" remote="selene-dev"/>
+  
+ <!-- Extras device -->
+  <project path="device/mediatek/sepolicy_vndr" name="device_mediatek_sepolicy_vndr" remote="selene-dev"/>
+
+</manifest>
